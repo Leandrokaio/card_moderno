@@ -1,0 +1,154 @@
+:root{
+    --main-font-page: "Roboto", sans-serif;
+    --main-color-bg: #4B5563;
+    --main-color-container: #FFFFFF;
+    --main-color-title-container: #000000;
+    --main-color-container-description: #6E6E6E;
+    --main-color-value-container: #059669;
+    --main-color-button: #059669;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font-page);
+}
+
+body{
+    background-color: var(--main-color-bg);
+}
+
+.container{
+    background-color: var(--main-color-container);
+    width: 480px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10vh auto;
+    box-shadow: 1px 5px 11px 0px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 1px 5px 11px 0px rgba(0,0,0,0.81);
+    -moz-box-shadow: 1px 5px 11px 0px rgba(0,0,0,0.81);
+}
+
+.Imobiliaria{
+    max-width: 100%;
+    margin: 0 auto;
+    display:block;
+    border-radius: 20px;
+    height: auto;
+    padding-bottom: 1.7rem;
+    border-top: #059669 7px solid;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fa-solid, .fa-bed{
+    color: var(--main-color-container-description);
+}
+
+.title-description{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    gap: .50rem;
+}
+
+.title-description .assessment{
+    display: flex;
+    align-items: center;
+    gap: .50rem;
+}
+
+.title-description .assessment p{
+    font-size: 1.2rem;
+    color: var(--main-color-container-description);
+}
+
+.title-description .description-title{
+    color: var(--main-color-container-description);
+}
+
+.container .title{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.specifications{
+    display: flex;
+    width: 85%;
+    row-gap: 1.2rem;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.specifications .icon-1{
+    display: flex;
+    gap: .40rem;
+    align-items: center;
+}
+
+.specifications .icon-1 p{
+    color: var(--main-color-container-description);
+}
+
+.labels{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    padding: 1.5rem 0 1.2rem 0;
+    gap: 1rem;
+}
+
+.labels .labels-description{
+    background-color: #E5E7EB;
+    padding: .30rem;
+    border-radius: 10px;
+    color: var(--main-color-bg)
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.values h3{
+    font-size: 2rem;
+    color: var(--main-color-value-container)
+}
+
+.values .buttons{
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.btn{
+    background-color: var(--main-color-button);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    color: var(--main-color-container);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn-corretor{
+    border: var(--main-color-button) 2px solid;
+    padding: 1rem .4rem;
+    border-radius: 10px;
+    color: var(--main-color-button);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
